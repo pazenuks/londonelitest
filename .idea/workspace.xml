@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1e8bf6c7-52b7-4abb-b91f-1bdfa456123e" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HtxsioN85VLOXoJXvBEKsUJm99" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/pazenuks/Documents/htdocs/londonelitest",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wp-content/themes/dockleicester/assets/fonts" />
+      <recent name="$PROJECT_DIR$/wp-content/themes/dockleicester/assets/icons/svg" />
+      <recent name="$PROJECT_DIR$/wp-content/themes/dockleicester/template-parts/header" />
+      <recent name="$PROJECT_DIR$/wp-content/themes/dockleicester/assets/css" />
+      <recent name="$PROJECT_DIR$/wp-content/themes/dockleicester/assets/js" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1e8bf6c7-52b7-4abb-b91f-1bdfa456123e" name="Changes" comment="" />
+      <created>1669118389259</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669118389259</updated>
+      <workItem from="1669118390553" duration="1214000" />
+      <workItem from="1669137583731" duration="7503000" />
+      <workItem from="1669452923164" duration="22088000" />
+      <workItem from="1669656190020" duration="10448000" />
+      <workItem from="1669818962000" duration="5791000" />
+      <workItem from="1669829552027" duration="607000" />
+      <workItem from="1669974026825" duration="2463000" />
+      <workItem from="1670266739989" duration="308000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
