@@ -96,7 +96,7 @@ if ( ! class_exists( 'Qi_Blocks_Admin_General_Page' ) ) {
 		}
 
 		function plugin_action_links( $links ) {
-			$links['premium'] = sprintf( '<a href="%1$s" target="_blank" class="qi-blocks-premium-link" style="color:#ee2852;font-weight:700">%2$s</a>', 'https://qodeinteractive.com/pricing-gutenberg?utm_source=dash&utm_medium=qiblocks&utm_campaign=gopremium', esc_html__( 'Upgrade', 'qi-blocks' ) );
+			$links['premium'] = sprintf( '<a href="%1$s" target="_blank" class="qi-blocks-premium-link" style="color:#ee2852;font-weight:700">%2$s</a>', 'https://qodeinteractive.com/pricing/?qi_product=blocks?utm_source=dash&utm_medium=qiblocks&utm_campaign=gopremium', esc_html__( 'Upgrade', 'qi-blocks' ) );
 
 			return $links;
 		}
@@ -286,7 +286,7 @@ if ( ! class_exists( 'Qi_Blocks_Admin_General_Page' ) ) {
 			}
 
 			if ( 'qi_blocks_pro' === $_GET['page'] ) {
-				wp_redirect( 'https://qodeinteractive.com/pricing-gutenberg?utm_source=dash&utm_medium=qiblocks&utm_campaign=gopremium' );
+				wp_redirect( 'https://qodeinteractive.com/pricing/?qi_product=blocks?utm_source=dash&utm_medium=qiblocks&utm_campaign=gopremium' );
 				die;
 			}
 

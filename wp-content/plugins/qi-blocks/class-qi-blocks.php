@@ -5,7 +5,7 @@ Description: A collection of blocks for the Gutenberg block editor, developed by
 Author: Qode Interactive
 Author URI: https://qodeinteractive.com/
 Plugin URI: https://qodeinteractive.com/qi-blocks-for-gutenberg/
-Version: 1.0.6
+Version: 1.0.9
 Requires at least: 5.8
 Requires PHP: 7.0
 Text Domain: qi-blocks
@@ -147,7 +147,24 @@ if ( ! class_exists( 'Qi_Blocks' ) ) {
 			wp_enqueue_style( 'qi-blocks-main-editor' );
 
 			// Enqueue JS scripts
-			wp_enqueue_script( 'qi-blocks-main-editor', QI_BLOCKS_ASSETS_URL_PATH . '/dist/main-editor.js', array( 'wp-blocks', 'wp-element', 'wp-block-editor', 'wp-plugins', 'wp-edit-post', 'wp-i18n', 'wp-api-fetch', 'wp-api', 'wp-data', 'wp-html-entities', 'wp-date', 'wp-autop' ), false, true );
+			$script_dependency = apply_filters(
+				'qi_blocks_filter_main_editor_dependencies',
+				array(
+					'wp-blocks',
+					'wp-element',
+					'wp-block-editor',
+					'wp-plugins',
+					'wp-i18n',
+					'wp-api-fetch',
+					'wp-api',
+					'wp-data',
+					'wp-html-entities',
+					'wp-date',
+					'wp-autop',
+				)
+			);
+
+			wp_enqueue_script( 'qi-blocks-main-editor', QI_BLOCKS_ASSETS_URL_PATH . '/dist/main-editor.js', $script_dependency, false, true );
 
 			// Enqueue localization data for our blocks
 			if ( function_exists( 'wp_set_script_translations' ) ) {

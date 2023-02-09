@@ -4,7 +4,7 @@ Tags: gutenberg blocks, gutenberg, blocks, templates, block, editor, patterns, w
 Requires at least: 5.8
 Tested up to: 6.1.1
 Requires PHP: 7.0
-Stable tag: 1.0.6
+Stable tag: 1.0.9
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -276,6 +276,19 @@ From wordpress.org
 12.	Device Frame Slider Block.
 
 == Changelog ==
+
+= 1-0-9 - 19-01-2023 =
+- Improved blocks (Call to Action and Counter) with video tutorial
+- Fixed minor bugs
+
+= 1.0.8 - 23-12-2022 =
+- Improved Blocksy theme compatibility
+
+= 1.0.7 - 15-12-2022 =
+- Updated languages file
+- Fixed excerpt quotes escaping for Blog List block
+- Fixed welcome page links
+- Fixed minor bugs
 
 = 1.0.6 - 23-11-2022 =
 - Improved blocks option styling

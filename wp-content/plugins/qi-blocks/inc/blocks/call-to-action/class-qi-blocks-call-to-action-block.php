@@ -14,6 +14,7 @@ if ( ! class_exists( 'Qi_Blocks_Call_To_Action_Block' ) ) {
 			$this->set_block_subcategory( esc_html__( 'Typography', 'qi-blocks' ) );
 			$this->set_block_demo_url( 'https://qodeinteractive.com/qi-blocks-for-gutenberg/call-to-action/' );
 			$this->set_block_documentation( 'https://qodeinteractive.com/qi-blocks-for-gutenberg/documentation/#call_to_action' );
+			$this->set_block_video( 'https://www.youtube.com/watch?v=ibZGWAa_jYM' );
 
 			parent::__construct();
 		}

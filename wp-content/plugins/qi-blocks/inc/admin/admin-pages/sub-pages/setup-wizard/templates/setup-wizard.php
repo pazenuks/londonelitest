@@ -21,7 +21,7 @@ if ( $templates_flag ) {
 		<script>
 			document.title = "<?php esc_html_e( 'Quick Setup Wizard - Qi Blocks for Gutenberg', 'qi-blocks' ); ?>"
 		</script>
-		<form class="qodef-setup-wizard-form" data-action="setup_wizard" data-step="1" data-steps="<?php echo count( $nav_items ); ?>">
+		<form class="qodef-setup-wizard-form" data-action="setup_wizard" data-wizard-step="1" data-wizard-steps="<?php echo count( $nav_items ); ?>">
 			<div class="qodef-setup-wizard-header qodef-m">
 				<ul class="qodef-m-nav">
 					<?php
@@ -116,7 +116,7 @@ if ( $templates_flag ) {
 						</a>
 					</div>
 					<img class="qodef-m-image" src="<?php echo esc_url( QI_BLOCKS_ADMIN_URL_PATH . '/admin-pages/sub-pages/setup-wizard/assets/img/wizard-step-3-bg.png' ); ?>" alt="<?php esc_attr_e( 'Qi Premium Blocks', 'qi-blocks' ); ?>" />
-					<a class="qodef-m-button qodef-btn qodef-btn-solid-red" href="https://qodeinteractive.com/pricing-gutenberg?utm_source=dash&utm_medium=qiblocks&utm_campaign=wizard" target="_blank"><?php esc_html_e( 'Get Premium', 'qi-blocks' ); ?></a>
+					<a class="qodef-m-button qodef-btn qodef-btn-solid-red" href="https://qodeinteractive.com/pricing/?qi_product=blocks?utm_source=dash&utm_medium=qiblocks&utm_campaign=wizard" target="_blank"><?php esc_html_e( 'Get Premium', 'qi-blocks' ); ?></a>
 				</div>
 			<?php } ?>
 			<?php if ( ! $templates_flag ) { ?>

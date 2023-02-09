@@ -285,7 +285,7 @@ if ( ! function_exists( 'qi_blocks_add_additional_options_for_advanced_block_pan
 			'features' => array(
 				0 => array(
 					'title' => esc_attr__( 'Premium Qi Blocks for Gutenberg', 'qi-blocks' ),
-					'link'  => 'https://qodeinteractive.com/pricing-gutenberg?utm_source=dash&utm_medium=qiblockspro&utm_campaign=gopremium',
+					'link'  => 'https://qodeinteractive.com/pricing/?qi_product=blocks?utm_source=dash&utm_medium=qiblockspro&utm_campaign=gopremium',
 					'image' => esc_url( QI_BLOCKS_ADMIN_URL_PATH . '/admin-pages/assets/img/features-qi-blocks-premium.jpg' ),
 				),
 				1 => array(

@@ -1799,3 +1799,25 @@ if ( ! function_exists( 'qi_blocks_get_list_block_item_image' ) ) {
 		return apply_filters( 'qi_blocks_filter_list_shortcode_item_image', $html, $attachment_id );
 	}
 }
+
+if ( ! function_exists( 'qi_blocks_main_editor_additional_dependencies' ) ) {
+	/**
+	 * Function that adds additional dependencies for main editor script
+	 *
+	 * @param array $dependency
+	 *
+	 * @return array
+	 *
+	 */
+	function qi_blocks_main_editor_additional_dependencies( $dependency ) {
+		global $pagenow;
+
+		if ( 'widgets.php' !== $pagenow ) {
+			$dependency[] = 'wp-edit-post';
+		}
+
+		return $dependency;
+	}
+
+	add_filter( 'qi_blocks_filter_main_editor_dependencies', 'qi_blocks_main_editor_additional_dependencies' );
+}

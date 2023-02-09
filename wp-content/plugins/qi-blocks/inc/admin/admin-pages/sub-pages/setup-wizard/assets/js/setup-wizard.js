@@ -36,12 +36,12 @@
 					function ( e ) {
 						e.preventDefault();
 
-						let newStep = parseInt( $form.attr( 'data-step' ), 10 ) + 1;
+						let newStep = parseInt( $form.attr( 'data-wizard-step' ), 10 ) + 1;
 						if ( newStep > navItemsCount ) {
 							newStep = navItemsCount;
 						}
 
-						$form.attr( 'data-step', newStep );
+						$form.attr( 'data-wizard-step', newStep );
 
 						$navItems.removeClass( 'qodef--active' );
 						$navItems[newStep - 1].classList.add( 'qodef--active' );
@@ -58,12 +58,12 @@
 					function ( e ) {
 						e.preventDefault();
 
-						let newStep = parseInt( $form.attr( 'data-step' ), 10 ) - 1;
+						let newStep = parseInt( $form.attr( 'data-wizard-step' ), 10 ) - 1;
 						if ( newStep < 1 ) {
 							newStep = 1;
 						}
 
-						$form.attr( 'data-step', newStep );
+						$form.attr( 'data-wizard-step', newStep );
 
 						$navItems.removeClass( 'qodef--active' );
 						$navItems[newStep - 1].classList.add( 'qodef--active' );
