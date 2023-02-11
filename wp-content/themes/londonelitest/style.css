@@ -774,7 +774,7 @@ template {
     }
 
     .d-hidden {
-        display: none;
+        display: none !important;
     }
 }
 
@@ -1182,7 +1182,7 @@ blockquote footer {
 
 
     .m-hidden {
-        display: none;
+        display: none !important;
     }
 }
 
@@ -3822,6 +3822,7 @@ table.wp-calendar-table caption {
 
     .site-header {
         z-index: 100;
+        max-width: unset;
     }
 
     .site-header .primary-navigation {
@@ -4759,6 +4760,10 @@ h1.page-title {
     }
 }
 @media only screen and (max-width: 1024px) {
+
+    .primary-navigation {
+        margin-left: 0 !important;
+    }
 
     .primary-navigation > .primary-menu-container {
         height: 100vh;
@@ -6070,6 +6075,10 @@ footer {
     height: 50px;
 }
 
+.contact_link {
+    font-size: 20px;
+}
+
 
 /* crazy main widget */
 
@@ -6147,7 +6156,36 @@ footer {
 }
 
 @media only screen and (max-width: 1024px) {
-    .custom-image-with-text .text-column {
 
+    .custom-image-with-text {
+        margin: auto !important;
+        margin-top: 100px !important;
+        --qi-blocks-columns: 2;
+    }
+
+    .custom-image-with-text .qodef-gutenberg-row {
+        gap: 0;
+    }
+
+    .custom-image-with-text .text-column {
+        width: 67% !important;
+    }
+
+    .custom-image-with-text .image-column {
+        order: 2;
+        width: 33% !important;
+    }
+
+    .custom-image-with-text .group-page-title {
+        margin-top: 50px;
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+
+    .custom-image-with-text .group-text {
+        background: var(--global--color-london-secondary);
+        color: white;
+        font-size: 10px;
+        padding: 30px 80px 50px 30px;
     }
 }
