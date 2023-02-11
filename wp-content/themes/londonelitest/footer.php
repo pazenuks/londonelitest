@@ -16,7 +16,6 @@
 </div><!-- #primary -->
 </div><!-- #content -->
 
-<?php get_template_part( 'template-parts/footer/footer-widgets' ); ?>
 
 <?php if ( get_edit_post_link() ) : ?>
     <footer class="entry-footer default-max-width">
@@ -34,27 +33,8 @@
     </footer><!-- .entry-footer -->
 <?php endif; ?>
 
-<footer id="colophon" class="site-footer">
-    <div class="site-info">
-        <?php if ( has_nav_menu( 'footer' ) ) : ?>
-            <nav aria-label="<?php esc_attr_e( 'Secondary menu', 'twentytwentyone' ); ?>" class="footer-navigation">
-                <ul class="footer-navigation-wrapper">
-                    <?php
-                    wp_nav_menu(
-                        array(
-                            'theme_location' => 'footer',
-                            'items_wrap'     => '%3$s',
-                            'container'      => false,
-                            'depth'          => 1,
-                            'link_before'    => '<span>',
-                            'link_after'     => '</span>',
-                            'fallback_cb'    => false,
-                        )
-                    );
-                    ?>
-                </ul><!-- .footer-navigation-wrapper -->
-            </nav><!-- .footer-navigation -->
-        <?php endif; ?>
+<footer class="site-footer-wrapper">
+    <div  id="colophon" class="site-footer">
         <div class="site-name">
             <?php if ( has_custom_logo() ) : ?>
                 <div class="site-logo"><?php the_custom_logo(); ?></div>
@@ -68,8 +48,30 @@
                 <?php endif; ?>
             <?php endif; ?>
         </div><!-- .site-name -->
-        <?php get_template_part( 'template-parts/header/icons' ); ?>
-    </div><!-- .site-info -->
+        <div class="site-info">
+            <?php get_template_part( 'template-parts/footer/footer-widgets' ); ?>
+            <?php if ( has_nav_menu( 'footer' ) ) : ?>
+                <nav aria-label="<?php esc_attr_e( 'Secondary menu', 'twentytwentyone' ); ?>" class="footer-navigation">
+                    <ul class="footer-navigation-wrapper">
+                        <?php
+                        wp_nav_menu(
+                            array(
+                                'theme_location' => 'footer',
+                                'items_wrap'     => '%3$s',
+                                'container'      => false,
+                                'depth'          => 1,
+                                'link_before'    => '<span>',
+                                'link_after'     => '</span>',
+                                'fallback_cb'    => false,
+                            )
+                        );
+                        ?>
+                    </ul><!-- .footer-navigation-wrapper -->
+                </nav><!-- .footer-navigation -->
+            <?php endif; ?>
+            <?php get_template_part( 'template-parts/header/icons' ); ?>
+        </div><!-- .site-info -->
+    </div>
 </footer><!-- #colophon -->
 
 </div><!-- #page -->
