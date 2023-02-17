@@ -6262,7 +6262,7 @@ footer {
     color: var(--global--color-london-secondary);
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 768px) {
 
     .about-us-1.wp-block-group.has-background {
         padding: 80px 0;
@@ -6379,7 +6379,7 @@ footer {
 }
 
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 768px) {
     .services {
         padding: 80px 0;
     }
@@ -6446,3 +6446,110 @@ footer {
 }
 
 /* services block on homepage end */
+
+@media only screen and (min-width: 768px) {
+    .bg-d-color-tetriary {
+        background: var(--global--color-london-tetriary) !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .bg-m-color-tetriary {
+        background: var(--global--color-london-tetriary) !important;
+    }
+}
+
+.weight-light {
+    font-weight: 300 !important;
+}
+
+.color-secondary {
+    color: var(--global--color-london-secondary) !important;
+}
+
+.read-more {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: var(--global--font-tetriary);
+    color: var(--global--color-london-secondary);
+}
+
+/* service post listing page start */
+.service-section {
+    background: var(--global--color-london-quaternary);
+    margin: 0;
+    overflow: hidden;
+}
+
+.service-section .service-wrapper {
+    max-width: 1400px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+.service-section .service-wrapper > div {
+    width: 50%;
+}
+
+.service-section .rect-img-wrapper {
+    position: relative;
+    padding-bottom: 100%;
+    height: 100%;
+}
+
+.service-section .service-image img {
+    object-fit: cover;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100% !important;
+}
+
+.service-section .service-icon {
+    position: absolute;
+    z-index: 10;
+    width: 250px;
+    height: 250px;
+    bottom: 0;
+    left: -125px;
+    right: unset;
+}
+
+.service-section .flip .service-icon {
+    right: -125px;
+    left: unset;
+}
+
+.service-section .service-wrapper.flip > div:first-child {
+    order: 2;
+}
+
+.service-section .service-text {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.service-section .service-text h2 a {
+    color: var(--global--color-london-secondary);
+}
+
+.service-section .service-text h2 {
+    margin-bottom: 1rem;
+}
+
+.service-section .service-text p {
+    margin-bottom: 2rem;
+}
+
+/* service post listing page end */

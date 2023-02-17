@@ -12,15 +12,6 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-
-    <?php if ( has_post_thumbnail() ) : ?>
-        <?php get_template_part( 'template-parts/header/entry-header' ); ?>
-    <?php else: ?>
-        <header class="entry-content">
-            <?php the_title( '<h1 class="page-title">', '</h1>' ); ?>
-        </header><!-- .entry-header -->
-    <?php endif; ?>
-
     <div class="entry-content">
         <?php
         the_content();
