@@ -6670,6 +6670,7 @@ footer {
 
 .about-us-about-us-main-block {
     background-color: #763f21;
+    height: 844px;
 }
 
 .page-template-page-about-us .about-us-heading
@@ -6689,9 +6690,9 @@ footer {
 
 
 .page-template-page-about-us .qodef-gutenberg-column-inner .about-us-image img {
-    position: relative;
-    top: 105px;
-    max-width: 550px !important;
+    position: absolute;
+    top: -277px;
+    max-width: 651px !important;
 }
 
 .about-us-mission-title {
@@ -6707,5 +6708,7 @@ footer {
 .about-us-mission-content {
     margin-left: 407px !important;
 }
+
+
 
 /* about us listing page end */
