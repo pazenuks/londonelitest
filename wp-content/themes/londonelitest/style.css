@@ -6670,6 +6670,7 @@ footer {
 
 .about-us-about-us-main-block {
     background-color: #763f21;
+    height: 844px;
 }
 
 .page-template-page-about-us .about-us-heading
@@ -6689,13 +6690,15 @@ footer {
 
 
 .page-template-page-about-us .qodef-gutenberg-column-inner .about-us-image img {
-    position: relative;
-    top: 105px;
-    max-width: 550px !important;
+    position: absolute;
+    top: -277px;
+    max-width: 651px !important;
 }
 
 .about-us-mission-title {
     margin-top: 131px;
+    margin-left: 352px !important;
+    margin-right: initial;
 }
 
 .about-us-mission-content-first {
@@ -6709,3 +6712,56 @@ footer {
 }
 
 /* about us listing page end */
+
+/* our team listing page start */
+
+.qodef-gutenberg-row {
+    max-width: none !important;
+}
+
+.qodef-gutenberg-row .qodef-block-f4ec0ed7 {
+    padding-top: 200px;
+    width: 60% !important;
+}
+
+.qodef-block-c6ceb37d {
+    background: var(--global--color-london-secondary);
+    padding-top: 160px;
+    width: 40% !important;
+    display: block !important;
+    margin: 0 !important;
+}
+
+.qodef-block-f4ec0ed7 img{
+    margin-left: auto;
+    width: 574px;
+    margin-right: auto;
+}
+
+.qodef-block-f4ec0ed7 figure {
+    margin: auto;
+}
+
+.qodef-block-c6ceb37d .qodef-gutenberg-column-inner {
+    top: 336px;
+}
+
+.qodef-block-c6ceb37d h2:first-of-type {
+    margin-left: -100px
+}
+
+.qodef-block-26532e8a .qodef-gutenberg-row {
+    gap: 0 !important;
+}
+
+.ot-left-minus-90 {
+    font-size: 60px;
+    margin: 0 !important;
+    margin-left: -90% !important;
+}
+
+.ot-left-minus-70 {
+    font-size: 60px;
+    margin: 0 !important;
+    margin-left: -70%  !important;
+}
