@@ -6197,11 +6197,13 @@ footer {
     }
 
     .custom-image-with-text .group-page-title h2 {
-        margin: 0!important;
+        margin: 0 !important;
+        margin-top: 12px !important;
     }
 
     .custom-image-with-text .group-text {
         background: var(--global--color-london-secondary);
+        height: 202px;
         color: white;
         font-size: 10px;
         padding: 20px 40% 50px 30px;
@@ -6460,6 +6462,10 @@ footer {
     }
 }
 
+.services-class {
+    margin-top: 19px !important;
+}
+
 .weight-light {
     font-weight: 300 !important;
 }
@@ -6552,4 +6558,154 @@ footer {
     margin-bottom: 2rem;
 }
 
+ @media only screen and (max-width: 767px) {
+    .custom-image-with-text .image-column .qodef-gutenberg-column-inner .wp-block-image img {
+        width: initial !important;
+        height: -webkit-fill-available !important;
+        padding-right: 38px;
+    }
+
+    
+    .site-footer {
+        background-color: var(--global--color-background);
+        max-width: initial !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+}
+
+
 /* service post listing page end */
+
+/* about us listing page start */
+
+
+.page-template-page-about-us .group-page-title-about {
+    background: var(--global--color-london-secondary);
+    padding-top: 160px;
+    width: 40% !important; 
+    display: block !important;
+}
+
+.page-template-page-about-us .home .site-main {
+    padding-bottom: 0;
+}
+
+.page-template-page-about-us .qodef-gutenberg-section.qodef-content--boxed>.qodef-gutenberg-row, .qodef-gutenberg-section.qodef-content--predefined>.qodef-gutenberg-row {
+    max-width: none !important;
+}
+
+.page-template-page-about-us .qodef-block-e7b016d1 {
+    padding-top: 160px;
+    width: 60% !important;
+}
+
+.page-template-page-about-us .qodef-block-8c3cd985{
+    background: var(--global--color-london-secondary);
+    padding-top: 160px;
+    width: 40% !important;
+    display: block !important;
+    margin: 0 !important; 
+}
+
+.page-template-page-about-us .qodef-gutenberg-column-inner {
+    margin: auto;
+    max-width: 50%;
+    padding: 40px 0;
+}
+
+.page-template-page-about-us .qodef-block-8c3cd985 .qodef-gutenberg-column-inner {
+    margin: 0 !important;
+}
+
+.page-template-page-about-us .wp-block-group__inner-container h1 {
+    font-size: 60px;
+    margin: 0;
+    letter-spacing: var(--heading--letter-spacing-h2);
+    line-height: var(--heading--line-height-h2);
+    font-weight: var(--heading--font-weight-page-title);
+    color: var(--global--color-london-tetriary);
+}
+
+@media only screen and (min-width: 768px) {
+    .page-template-page-about-us .m-left-minus-46 {
+        margin-left: -45% !important;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .page-template-page-about-us .m-left-minus-43 {
+        margin-left: -43% !important;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .page-template-page-about-us .m-left-minus-26 {
+        margin-left: -26% !important;
+    }
+}
+
+.page-template-page-about-us h1 {
+    font-family: var(--global--font-primary);
+}
+
+.page-template-page-about-us .is-layout-constrained.wp-block-group {
+    color: var(--global--color-london-quaternary);
+}
+
+.page-template-page-about-us .qodef-block-8c3cd985 .qodef-gutenberg-column-inner {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    margin-top: 100px;
+    right: 0px;
+    max-width: 100%;
+    width: 100%;
+}
+
+.page-template-page-about-us .qodef-block-8c3cd985 .qodef-gutenberg-column-inner p {
+    padding: 10%;
+}
+
+.about-us-about-us-main-block {
+    background-color: #763f21;
+}
+
+.page-template-page-about-us .about-us-heading
+{
+    color: var(--global--color-london-secondary);
+}
+
+.page-template-page-about-us .about-us-about-us-main-block p {
+    color: var(--global--color-london-quaternary);
+}
+
+.page-template-page-about-us .about-us-heading {
+    margin-top: -112px !important;
+    margin-left: -55px !important;
+}
+
+
+
+.page-template-page-about-us .qodef-gutenberg-column-inner .about-us-image img {
+    position: relative;
+    top: 105px;
+    max-width: 550px !important;
+}
+
+.about-us-mission-title {
+    margin-top: 131px;
+}
+
+.about-us-mission-content-first {
+    margin-left: 407px !important;
+    margin-top: 40px;
+}
+
+
+.about-us-mission-content {
+    margin-left: 407px !important;
+}
+
+/* about us listing page end */
