@@ -6601,12 +6601,12 @@ footer {
     max-width: none !important;
 }
 
-.page-template-page-about-us .qodef-block-e7b016d1 {
+.page-template-page-about-us .advanced-column-1 {
     padding-top: 160px;
     width: 60% !important;
 }
 
-.page-template-page-about-us .qodef-block-8c3cd985{
+.page-template-page-about-us .advanced-column-2{
     background: var(--global--color-london-secondary);
     padding-top: 160px;
     width: 40% !important;
@@ -6659,7 +6659,7 @@ footer {
     color: var(--global--color-london-quaternary);
 }
 
-.page-template-page-about-us .qodef-block-8c3cd985 .qodef-gutenberg-column-inner {
+.page-template-page-about-us .advanced-column-2 .qodef-gutenberg-column-inner {
     position: absolute;
     left: 0;
     top: 50%;
@@ -6670,7 +6670,7 @@ footer {
     width: 100%;
 }
 
-.page-template-page-about-us .qodef-block-8c3cd985 .qodef-gutenberg-column-inner p {
+.page-template-page-about-us .advanced-column-2 .qodef-gutenberg-column-inner p {
     padding: 10%;
 }
 
@@ -6725,12 +6725,12 @@ footer {
     max-width: none !important;
 }
 
-.qodef-gutenberg-row .qodef-block-f4ec0ed7 {
+.qodef-gutenberg-row .our-team-left-column-1 {
     padding-top: 200px;
     width: 60% !important;
 }
 
-.qodef-block-c6ceb37d {
+.our-team-right-column-1 {
     background: var(--global--color-london-tetriary) !important;
     padding-top: 160px;
     width: 40% !important;
@@ -6738,21 +6738,21 @@ footer {
     margin: 0 !important;
 }
 
-.qodef-block-f4ec0ed7 img{
+.our-team-left-column-1 img{
     margin-left: auto;
     width: 574px;
     margin-right: auto;
 }
 
-.qodef-block-f4ec0ed7 figure {
+.our-team-left-column-1 figure {
     margin: auto;
 }
 
-.qodef-block-c6ceb37d .qodef-gutenberg-column-inner {
+.our-team-right-column-1 .qodef-gutenberg-column-inner {
     top: 336px;
 }
 
-.qodef-block-c6ceb37d h2:first-of-type {
+.our-team-right-column-1 h2:first-of-type {
     margin-left: -100px
 }
 
@@ -6774,36 +6774,36 @@ footer {
     color: var(--global--color-london-secondary) !important;
 }
 
-.qodef-block-97c1d430 {
+.our-team-left-column-2 {
     max-width: 655px;
 }
 
-.qodef-block-7439204d {
+.our-team-right-column-2 {
     max-width: 655px;
 }
 
-.qodef-block-28c720cc .qodef-gutenberg-row {
+.our-team-right-columns-2 .qodef-gutenberg-row {
     align-items: center;
     justify-content: center;
     margin-top: 35px;
 
 }
 
-.qodef-block-97c1d430 .wp-block-image img {
+.our-team-left-column-2 .wp-block-image img {
     width: 560px;
     height: 770px;
     object-fit: cover;
     object-position: 0% 0;
 }
 
-.qodef-block-97c1d430 p {
+.our-team-left-column-2 p {
     max-width: 435px;
     text-align: center;
     margin-left: 7%;
     margin-top: 80px;
 }
 
-.qodef-block-7439204d p {
+.our-team-right-column-2 p {
     max-width: 435px;
     text-align: center;
     margin-left: 7%;
@@ -6812,14 +6812,14 @@ footer {
 }
 
 
-.qodef-block-7439204d .wp-block-image img {
+.our-team-right-column-2 .wp-block-image img {
     width: 560px;
     height: 770px;
     object-fit: cover;
     object-position: 0% 0;
 }
 
-.qodef-block-28c720cc {
+.our-team-right-columns-2 {
     background-color: var(--global--color-london-text);
 }
 
@@ -6869,46 +6869,46 @@ footer {
     width: 1.5px;
 }
 
-.qodef-block-28c720cc .qodef-gutenberg-row {
+.our-team-right-columns-2 .qodef-gutenberg-row {
     margin-bottom: 75px;
 }
 
 @media only screen and (max-width: 767px) {
-    .qodef-block-f4ec0ed7 {
+    .our-team-left-column-1 {
         order: 2;
         width: 33% !important;
     }
 
-    .qodef-block-c6ceb37d {
+    .our-team-right-column-1 {
         height: 202px;
     }
 
-    .qodef-block-c6ceb37d {
+    .our-team-right-column-1 {
         position: relative;
         top: 240px;
     }
 
-    .qodef-block-f4ec0ed7 .qodef-gutenberg-column-inner  figure{
+    .our-team-left-column-1 .qodef-gutenberg-column-inner  figure{
         max-width: 226px;
         width: 100% !important;
     }
 }
 
 @media only screen and (max-width: 767px) {
-    .qodef-gutenberg-row .qodef-block-f4ec0ed7  {
+    .qodef-gutenberg-row .our-team-left-column-1  {
         width: 33% !important;
         position: relative;
         top: -72px;
         right: 32px;
     }
 
-    .qodef-gutenberg-row .qodef-block-f4ec0ed7 img {
+    .qodef-gutenberg-row .our-team-left-column-1 img {
         position: relative;
         right: 42px;
         z-index: 2;
     }
 
-    .qodef-block-c6ceb37d {
+    .our-team-right-column-1 {
         width: 67% !important;
         top: 300px;
         height: 203px;
