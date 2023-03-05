@@ -33,7 +33,7 @@
     </footer><!-- .entry-footer -->
 <?php endif; ?>
 
-<footer class="site-footer-wrapper">
+<footer class="site-footer-wrapper" style="background: <?= get_field('footer_background_color')?>">
     <div  id="colophon" class="site-footer">
         <div class="site-name">
             <?php if ( has_custom_logo() ) : ?>
