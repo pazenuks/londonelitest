@@ -43,7 +43,7 @@
             </ul>
         </div>
         <div class="view-all-block">
-            <a class="link-wrapper"  href="/view-all">
+            <a class="link-wrapper"  href="/our-services">
                 <span>View All</span>
             </a>
         </div>
