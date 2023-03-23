@@ -15,6 +15,9 @@
     "family": "Abril Fatface"
   },
   {
+    "family": "Abyssinica SIL"
+  },
+  {
     "family": "Aclonica"
   },
   {
@@ -81,6 +84,9 @@
     "family": "Alex Brush"
   },
   {
+    "family": "Alexandria"
+  },
+  {
     "family": "Alfa Slab One"
   },
   {
@@ -91,6 +97,9 @@
   },
   {
     "family": "Alike Angular"
+  },
+  {
+    "family": "Alkalami"
   },
   {
     "family": "Allan"
@@ -148,6 +157,9 @@
   },
   {
     "family": "Amiri"
+  },
+  {
+    "family": "Amiri Quran"
   },
   {
     "family": "Amita"
@@ -244,6 +256,9 @@
   },
   {
     "family": "Aref Ruqaa"
+  },
+  {
+    "family": "Aref Ruqaa Ink"
   },
   {
     "family": "Arima"
@@ -555,6 +570,9 @@
     "family": "Blaka Hollow"
   },
   {
+    "family": "Blaka Ink"
+  },
+  {
     "family": "Blinker"
   },
   {
@@ -618,6 +636,9 @@
     "family": "Bungee Shade"
   },
   {
+    "family": "Bungee Spice"
+  },
+  {
     "family": "Butcherman"
   },
   {
@@ -640,6 +661,9 @@
   },
   {
     "family": "Cairo"
+  },
+  {
+    "family": "Cairo Play"
   },
   {
     "family": "Caladea"
@@ -769,6 +793,9 @@
   },
   {
     "family": "Chivo"
+  },
+  {
+    "family": "Chivo Mono"
   },
   {
     "family": "Chonburi"
@@ -1233,6 +1260,9 @@
     "family": "Forum"
   },
   {
+    "family": "Fragment Mono"
+  },
+  {
     "family": "Francois One"
   },
   {
@@ -1288,6 +1318,9 @@
   },
   {
     "family": "Gafata"
+  },
+  {
+    "family": "Gajraj One"
   },
   {
     "family": "Galada"
@@ -1360,6 +1393,9 @@
   },
   {
     "family": "Glegoo"
+  },
+  {
+    "family": "Gloock"
   },
   {
     "family": "Gloria Hallelujah"
@@ -1476,6 +1512,9 @@
     "family": "Handlee"
   },
   {
+    "family": "Hanken Grotesk"
+  },
+  {
     "family": "Hanuman"
   },
   {
@@ -1552,6 +1591,9 @@
   },
   {
     "family": "IBM Plex Sans Hebrew"
+  },
+  {
+    "family": "IBM Plex Sans JP"
   },
   {
     "family": "IBM Plex Sans KR"
@@ -1642,6 +1684,9 @@
   },
   {
     "family": "Inter"
+  },
+  {
+    "family": "Inter Tight"
   },
   {
     "family": "Irish Grover"
@@ -1879,6 +1924,9 @@
   },
   {
     "family": "La Belle Aurore"
+  },
+  {
+    "family": "Labrada"
   },
   {
     "family": "Lacquer"
@@ -2148,6 +2196,9 @@
     "family": "Margarine"
   },
   {
+    "family": "Marhey"
+  },
+  {
     "family": "Markazi Text"
   },
   {
@@ -2161,6 +2212,9 @@
   },
   {
     "family": "Martel Sans"
+  },
+  {
+    "family": "Martian Mono"
   },
   {
     "family": "Marvel"
@@ -2376,10 +2430,16 @@
     "family": "My Soul"
   },
   {
+    "family": "Mynerve"
+  },
+  {
     "family": "Mystery Quest"
   },
   {
     "family": "NTR"
+  },
+  {
+    "family": "Nabla"
   },
   {
     "family": "Nanum Brush Script"
@@ -2449,6 +2509,9 @@
   },
   {
     "family": "Noticia Text"
+  },
+  {
+    "family": "Noto Color Emoji"
   },
   {
     "family": "Noto Emoji"
@@ -2565,6 +2628,9 @@
     "family": "Noto Sans Elymaic"
   },
   {
+    "family": "Noto Sans Ethiopic"
+  },
+  {
     "family": "Noto Sans Georgian"
   },
   {
@@ -2646,6 +2712,9 @@
     "family": "Noto Sans Lao"
   },
   {
+    "family": "Noto Sans Lao Looped"
+  },
+  {
     "family": "Noto Sans Lepcha"
   },
   {
@@ -2697,6 +2766,9 @@
     "family": "Noto Sans Meetei Mayek"
   },
   {
+    "family": "Noto Sans Mende Kikakui"
+  },
+  {
     "family": "Noto Sans Meroitic"
   },
   {
@@ -2721,7 +2793,7 @@
     "family": "Noto Sans Myanmar"
   },
   {
-    "family": "Noto Sans N Ko"
+    "family": "Noto Sans NKo"
   },
   {
     "family": "Noto Sans Nabataean"
@@ -2817,6 +2889,9 @@
     "family": "Noto Sans Siddham"
   },
   {
+    "family": "Noto Sans SignWriting"
+  },
+  {
     "family": "Noto Sans Sinhala"
   },
   {
@@ -2869,6 +2944,9 @@
   },
   {
     "family": "Noto Sans Tamil Supplement"
+  },
+  {
+    "family": "Noto Sans Tangsa"
   },
   {
     "family": "Noto Sans Telugu"
@@ -2964,6 +3042,9 @@
     "family": "Noto Serif Khmer"
   },
   {
+    "family": "Noto Serif Khojki"
+  },
+  {
     "family": "Noto Serif Lao"
   },
   {
@@ -2973,7 +3054,10 @@
     "family": "Noto Serif Myanmar"
   },
   {
-    "family": "Noto Serif Nyiakeng Puachue Hmong"
+    "family": "Noto Serif NP Hmong"
+  },
+  {
+    "family": "Noto Serif Oriya"
   },
   {
     "family": "Noto Serif SC"
@@ -2998,6 +3082,9 @@
   },
   {
     "family": "Noto Serif Tibetan"
+  },
+  {
+    "family": "Noto Serif Toto"
   },
   {
     "family": "Noto Serif Yezidi"
@@ -3150,6 +3237,9 @@
     "family": "Padauk"
   },
   {
+    "family": "Padyakke Expanded One"
+  },
+  {
     "family": "Palanquin"
   },
   {
@@ -3214,6 +3304,9 @@
   },
   {
     "family": "Philosopher"
+  },
+  {
+    "family": "Phudu"
   },
   {
     "family": "Piazzolla"
@@ -3438,6 +3531,12 @@
     "family": "Reem Kufi"
   },
   {
+    "family": "Reem Kufi Fun"
+  },
+  {
+    "family": "Reem Kufi Ink"
+  },
+  {
     "family": "Reenie Beanie"
   },
   {
@@ -3519,6 +3618,9 @@
     "family": "Rubik"
   },
   {
+    "family": "Rubik 80s Fade"
+  },
+  {
     "family": "Rubik Beastly"
   },
   {
@@ -3532,6 +3634,9 @@
   },
   {
     "family": "Rubik Distressed"
+  },
+  {
+    "family": "Rubik Gemstones"
   },
   {
     "family": "Rubik Glitch"
@@ -3556,6 +3661,15 @@
   },
   {
     "family": "Rubik Puddles"
+  },
+  {
+    "family": "Rubik Spray Paint"
+  },
+  {
+    "family": "Rubik Storm"
+  },
+  {
+    "family": "Rubik Vinyl"
   },
   {
     "family": "Rubik Wet Paint"
@@ -3699,6 +3813,9 @@
     "family": "Shalimar"
   },
   {
+    "family": "Shantell Sans"
+  },
+  {
     "family": "Shanti"
   },
   {
@@ -3801,10 +3918,28 @@
     "family": "Sofia"
   },
   {
+    "family": "Sofia Sans"
+  },
+  {
+    "family": "Sofia Sans Condensed"
+  },
+  {
+    "family": "Sofia Sans Extra Condensed"
+  },
+  {
+    "family": "Sofia Sans Semi Condensed"
+  },
+  {
+    "family": "Solitreo"
+  },
+  {
     "family": "Solway"
   },
   {
     "family": "Song Myung"
+  },
+  {
+    "family": "Sono"
   },
   {
     "family": "Sonsie One"
@@ -4105,6 +4240,9 @@
   },
   {
     "family": "Ultra"
+  },
+  {
+    "family": "Unbounded"
   },
   {
     "family": "Uncial Antiqua"

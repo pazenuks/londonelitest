@@ -2,16 +2,16 @@
 # This file is distributed under the same license as the Qi Blocks plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Qi Blocks 1.0.9\n"
+"Project-Id-Version: Qi Blocks 1.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/qi-blocks\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2023-01-19T10:07:23+01:00\n"
+"POT-Creation-Date: 2023-03-10T13:12:41+01:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.7.1\n"
+"X-Generator: WP-CLI 2.7.1-windows\n"
 "X-Domain: qi-blocks\n"
 
 #. Plugin Name of the plugin
@@ -62,7 +62,7 @@ msgstr ""
 
 #: inc/admin/admin-pages/class-qi-blocks-admin-general-page.php:90
 #: inc/admin/admin-pages/templates/parts/sidebar/help-center.php:3
-#: inc/blocks/helper.php:281
+#: inc/blocks/helper.php:302
 msgid "Help Center"
 msgstr ""
 
@@ -347,7 +347,7 @@ msgstr ""
 
 #: inc/admin/admin-pages/sub-pages/widgets/templates/parts/documentation.php:2
 #: inc/admin/admin-pages/templates/parts/knowledge-base.php:9
-#: inc/blocks/helper.php:273
+#: inc/blocks/helper.php:294
 msgid "Documentation"
 msgstr ""
 
@@ -459,7 +459,7 @@ msgid "Qi Logo"
 msgstr ""
 
 #: inc/admin/admin-pages/templates/parts/free-demos.php:7
-#: inc/blocks/helper.php:287
+#: inc/blocks/helper.php:308
 msgid "Premium Qi Blocks for Gutenberg"
 msgstr ""
 
@@ -751,12 +751,12 @@ msgstr ""
 #: inc/blocks/button/class-qi-blocks-button-block.php:14
 #: inc/blocks/call-to-action/class-qi-blocks-call-to-action-block.php:14
 #: inc/blocks/divider/class-qi-blocks-divider-block.php:14
-#: inc/blocks/helper.php:35
-#: inc/blocks/helper.php:42
-#: inc/blocks/helper.php:112
-#: inc/blocks/helper.php:140
-#: inc/blocks/helper.php:154
-#: inc/blocks/helper.php:231
+#: inc/blocks/helper.php:56
+#: inc/blocks/helper.php:63
+#: inc/blocks/helper.php:133
+#: inc/blocks/helper.php:161
+#: inc/blocks/helper.php:175
+#: inc/blocks/helper.php:252
 #: inc/blocks/icon-with-text/class-qi-blocks-icon-with-text-block.php:14
 #: inc/blocks/message-box/class-qi-blocks-message-box-block.php:14
 #: inc/blocks/section-title/class-qi-blocks-section-title-block.php:14
@@ -891,14 +891,14 @@ msgstr ""
 #: inc/blocks/banner/class-qi-blocks-banner-block.php:14
 #: inc/blocks/blog-list/class-qi-blocks-blog-list-block.php:14
 #: inc/blocks/clients-list/class-qi-blocks-clients-list-block.php:14
-#: inc/blocks/helper.php:49
-#: inc/blocks/helper.php:56
+#: inc/blocks/helper.php:70
 #: inc/blocks/helper.php:77
-#: inc/blocks/helper.php:91
-#: inc/blocks/helper.php:126
-#: inc/blocks/helper.php:161
-#: inc/blocks/helper.php:189
-#: inc/blocks/helper.php:224
+#: inc/blocks/helper.php:98
+#: inc/blocks/helper.php:112
+#: inc/blocks/helper.php:147
+#: inc/blocks/helper.php:182
+#: inc/blocks/helper.php:210
+#: inc/blocks/helper.php:245
 #: inc/blocks/info-box/class-qi-blocks-info-box-block.php:14
 #: inc/blocks/pricing-table/class-qi-blocks-pricing-table-block.php:14
 #: inc/blocks/team-member/class-qi-blocks-team-member-block.php:14
@@ -929,11 +929,11 @@ msgid "Cards Gallery"
 msgstr ""
 
 #: inc/blocks/cards-gallery/class-qi-blocks-cards-gallery-block.php:14
-#: inc/blocks/helper.php:98
-#: inc/blocks/helper.php:105
-#: inc/blocks/helper.php:168
-#: inc/blocks/helper.php:182
-#: inc/blocks/helper.php:217
+#: inc/blocks/helper.php:119
+#: inc/blocks/helper.php:126
+#: inc/blocks/helper.php:189
+#: inc/blocks/helper.php:203
+#: inc/blocks/helper.php:238
 #: inc/blocks/parallax-images/class-qi-blocks-parallax-images-block.php:14
 #: inc/blocks/text-marquee/class-qi-blocks-text-marquee-block.php:14
 msgid "Creative"
@@ -969,7 +969,7 @@ msgid "Contact Form 7"
 msgstr ""
 
 #: inc/blocks/contact-form-7/class-qi-blocks-contact-form-7-block.php:14
-#: inc/blocks/helper.php:238
+#: inc/blocks/helper.php:259
 msgid "Form Style"
 msgstr ""
 
@@ -979,13 +979,13 @@ msgid "Countdown"
 msgstr ""
 
 #: inc/blocks/countdown/class-qi-blocks-countdown-block.php:14
-#: inc/blocks/helper.php:28
-#: inc/blocks/helper.php:63
+#: inc/blocks/helper.php:49
 #: inc/blocks/helper.php:84
-#: inc/blocks/helper.php:119
-#: inc/blocks/helper.php:147
-#: inc/blocks/helper.php:175
-#: inc/blocks/helper.php:245
+#: inc/blocks/helper.php:105
+#: inc/blocks/helper.php:140
+#: inc/blocks/helper.php:168
+#: inc/blocks/helper.php:196
+#: inc/blocks/helper.php:266
 #: inc/blocks/image-gallery-masonry/class-qi-blocks-image-gallery-masonry-block.php:14
 #: inc/blocks/image-gallery-pinterest/class-qi-blocks-image-gallery-pinterest-block.php:14
 #: inc/blocks/image-gallery/class-qi-blocks-image-gallery-block.php:14
@@ -1000,8 +1000,8 @@ msgid "Counters"
 msgstr ""
 
 #: inc/blocks/counter/class-qi-blocks-counter-block.php:14
-#: inc/blocks/helper.php:70
-#: inc/blocks/helper.php:133
+#: inc/blocks/helper.php:91
+#: inc/blocks/helper.php:154
 #: inc/blocks/process/class-qi-blocks-process-block.php:14
 #: inc/blocks/progress-bar-circle/class-qi-blocks-progress-bar-circle-block.php:14
 #: inc/blocks/progress-bar-horizontal/class-qi-blocks-progress-bar-horizontal-block.php:14
@@ -1024,160 +1024,160 @@ msgstr ""
 msgid "SEO"
 msgstr ""
 
-#: inc/blocks/helper.php:20
+#: inc/blocks/helper.php:41
 msgid "Add to Cart Button"
 msgstr ""
 
-#: inc/blocks/helper.php:21
-#: inc/blocks/helper.php:196
-#: inc/blocks/helper.php:203
-#: inc/blocks/helper.php:210
+#: inc/blocks/helper.php:42
+#: inc/blocks/helper.php:217
+#: inc/blocks/helper.php:224
+#: inc/blocks/helper.php:231
 #: inc/blocks/product-list/class-qi-blocks-product-list-block.php:14
 msgid "WooCommerce"
 msgstr ""
 
-#: inc/blocks/helper.php:27
+#: inc/blocks/helper.php:48
 msgid "Advanced Navigation"
 msgstr ""
 
-#: inc/blocks/helper.php:34
+#: inc/blocks/helper.php:55
 msgid "Animated Text"
 msgstr ""
 
-#: inc/blocks/helper.php:41
+#: inc/blocks/helper.php:62
 msgid "Blockquote"
 msgstr ""
 
-#: inc/blocks/helper.php:48
+#: inc/blocks/helper.php:69
 msgid "Blog Carousel"
 msgstr ""
 
-#: inc/blocks/helper.php:55
+#: inc/blocks/helper.php:76
 msgid "Working Hours"
 msgstr ""
 
-#: inc/blocks/helper.php:62
+#: inc/blocks/helper.php:83
 msgid "Cards Slider"
 msgstr ""
 
-#: inc/blocks/helper.php:69
+#: inc/blocks/helper.php:90
 msgid "Pie and Donut Charts"
 msgstr ""
 
-#: inc/blocks/helper.php:76
+#: inc/blocks/helper.php:97
 msgid "Clients Carousel"
 msgstr ""
 
-#: inc/blocks/helper.php:83
+#: inc/blocks/helper.php:104
 msgid "Content Menu"
 msgstr ""
 
-#: inc/blocks/helper.php:90
+#: inc/blocks/helper.php:111
 msgid "Data Table"
 msgstr ""
 
-#: inc/blocks/helper.php:97
+#: inc/blocks/helper.php:118
 msgid "Device Frame Carousel"
 msgstr ""
 
-#: inc/blocks/helper.php:104
+#: inc/blocks/helper.php:125
 msgid "Device Frame Slider"
 msgstr ""
 
-#: inc/blocks/helper.php:111
+#: inc/blocks/helper.php:132
 msgid "Drop Caps"
 msgstr ""
 
-#: inc/blocks/helper.php:118
+#: inc/blocks/helper.php:139
 msgid "Dual Image with Content"
 msgstr ""
 
-#: inc/blocks/helper.php:125
+#: inc/blocks/helper.php:146
 msgid "Google Map"
 msgstr ""
 
-#: inc/blocks/helper.php:132
+#: inc/blocks/helper.php:153
 msgid "Graphs"
 msgstr ""
 
-#: inc/blocks/helper.php:139
+#: inc/blocks/helper.php:160
 #: assets/dist/main-editor.js:1
 msgid "Highlighted Text"
 msgstr ""
 
-#: inc/blocks/helper.php:146
+#: inc/blocks/helper.php:167
 msgid "Image Hotspots"
 msgstr ""
 
-#: inc/blocks/helper.php:153
+#: inc/blocks/helper.php:174
 msgid "Info Button"
 msgstr ""
 
-#: inc/blocks/helper.php:160
+#: inc/blocks/helper.php:181
 msgid "Interactive Banners"
 msgstr ""
 
-#: inc/blocks/helper.php:167
+#: inc/blocks/helper.php:188
 msgid "Interactive Links"
 msgstr ""
 
-#: inc/blocks/helper.php:174
+#: inc/blocks/helper.php:195
 msgid "Item Showcase"
 msgstr ""
 
-#: inc/blocks/helper.php:181
+#: inc/blocks/helper.php:202
 msgid "Preview Slider"
 msgstr ""
 
-#: inc/blocks/helper.php:188
+#: inc/blocks/helper.php:209
 msgid "Pricing List"
 msgstr ""
 
-#: inc/blocks/helper.php:195
+#: inc/blocks/helper.php:216
 msgid "Product Category List"
 msgstr ""
 
-#: inc/blocks/helper.php:202
+#: inc/blocks/helper.php:223
 msgid "Product Slider"
 msgstr ""
 
-#: inc/blocks/helper.php:209
+#: inc/blocks/helper.php:230
 msgid "Rating"
 msgstr ""
 
-#: inc/blocks/helper.php:216
+#: inc/blocks/helper.php:237
 msgid "Slider Switch"
 msgstr ""
 
-#: inc/blocks/helper.php:223
+#: inc/blocks/helper.php:244
 msgid "Testimonials Carousel"
 msgstr ""
 
-#: inc/blocks/helper.php:230
+#: inc/blocks/helper.php:251
 msgid "Typeout Text"
 msgstr ""
 
-#: inc/blocks/helper.php:237
+#: inc/blocks/helper.php:258
 msgid "WPForms"
 msgstr ""
 
-#: inc/blocks/helper.php:244
+#: inc/blocks/helper.php:265
 msgid "Before/After Comparison Slider"
 msgstr ""
 
-#: inc/blocks/helper.php:265
+#: inc/blocks/helper.php:286
 msgid "Block Showcase"
 msgstr ""
 
-#: inc/blocks/helper.php:269
+#: inc/blocks/helper.php:290
 msgid "Live Demos"
 msgstr ""
 
-#: inc/blocks/helper.php:277
+#: inc/blocks/helper.php:298
 msgid "Video Tutorial"
 msgstr ""
 
-#: inc/blocks/helper.php:292
+#: inc/blocks/helper.php:313
 msgid "Qi Templates for Gutenberg"
 msgstr ""
 

@@ -413,7 +413,7 @@ if ( ! class_exists( 'Qi_Blocks_Blocks' ) ) {
 						$additional_conditional = function_exists( 'has_block' ) && has_block( 'qi-blocks/' . $script_value['block_name'] );
 
 						if ( ! $additional_conditional && function_exists( 'get_the_block_template_html' ) ) {
-							$template_content = get_the_block_template_html();
+							$template_content = qi_blocks_get_the_block_template_html();
 
 							// Check if block exist inside FSE template part
 							if ( ! empty( $template_content ) && strpos( $template_content, 'qi-block-' . $script_value['block_name'] ) !== false ) {

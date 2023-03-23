@@ -14,6 +14,7 @@ if ( ! class_exists( 'Qi_Blocks_Contact_Form_7_Block' ) ) {
 			$this->set_block_subcategory( esc_html__( 'Form Style', 'qi-blocks' ) );
 			$this->set_block_demo_url( 'https://qodeinteractive.com/qi-blocks-for-gutenberg/contact-form-7/' );
 			$this->set_block_documentation( 'https://qodeinteractive.com/qi-blocks-for-gutenberg/documentation/#contact_form_7' );
+			$this->set_block_video( 'https://www.youtube.com/watch?v=bAec78xnY7Q' );
 
 			$block_options = array(
 				'render_callback' => array( $this, 'dynamic_render_callback' ),

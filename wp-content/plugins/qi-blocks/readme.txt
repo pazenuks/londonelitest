@@ -4,7 +4,7 @@ Tags: gutenberg blocks, gutenberg, blocks, templates, block, editor, patterns, w
 Requires at least: 5.8
 Tested up to: 6.1.1
 Requires PHP: 7.0
-Stable tag: 1.0.9
+Stable tag: 1.1
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -276,6 +276,12 @@ From wordpress.org
 12.	Device Frame Slider Block.
 
 == Changelog ==
+
+= 1-1 - 10-03-2023 =
+- Improved blocks (Contact Form 7 and Parallax Image Showcase) with video tutorial
+- Removed unnecessary dot mark from Timeline block - date element
+- Fixed blocks image size option inside Widgets panel
+- Fixed minor bugs
 
 = 1-0-9 - 19-01-2023 =
 - Improved blocks (Call to Action and Counter) with video tutorial

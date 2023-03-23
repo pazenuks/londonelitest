@@ -1,5 +1,26 @@
 <?php
 
+if ( ! function_exists( 'qi_blocks_get_the_block_template_html' ) ) {
+	/**
+	 * Function that returns the markup for the current template.
+	 *
+	 * @see get_the_block_template_html()
+	 *
+	 * @return string Block template markup.
+	 */
+	function qi_blocks_get_the_block_template_html() {
+		$content = get_transient( '_qi_blocks_get_the_block_template_html ');
+
+		if ( empty( $content ) ) {
+			$content = get_the_block_template_html();
+
+			set_transient( '_qi_blocks_get_the_block_template_html', $content, 5 );
+		}
+
+		return $content;
+	}
+}
+
 if ( ! function_exists( 'qi_blocks_get_premium_blocks_list' ) ) {
 	/**
 	 * Function that return premium blocks list
