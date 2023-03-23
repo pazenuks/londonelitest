@@ -9,9 +9,10 @@
  * @since Twenty Twenty-One 1.0
  */
 
-?>
+$offsetEnabled = get_field('page_offset');
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+?>
+<article id="post-<?php the_ID(); ?>" <?php post_class(); ?> <?php if ($offsetEnabled): ?> style="margin-top: 180px" <?php endif; ?>>
     <div class="entry-content">
         <?php
         the_content();
