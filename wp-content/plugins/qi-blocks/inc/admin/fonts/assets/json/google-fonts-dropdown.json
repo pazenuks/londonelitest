@@ -102,6 +102,9 @@
     "family": "Alkalami"
   },
   {
+    "family": "Alkatra"
+  },
+  {
     "family": "Allan"
   },
   {
@@ -262,9 +265,6 @@
   },
   {
     "family": "Arima"
-  },
-  {
-    "family": "Arima Madurai"
   },
   {
     "family": "Arimo"
@@ -810,6 +810,9 @@
     "family": "Clicker Script"
   },
   {
+    "family": "Climate Crisis"
+  },
+  {
     "family": "Coda"
   },
   {
@@ -973,6 +976,9 @@
   },
   {
     "family": "Dela Gothic One"
+  },
+  {
+    "family": "Delicious Handrawn"
   },
   {
     "family": "Delius"
@@ -1281,9 +1287,6 @@
     "family": "Fredoka"
   },
   {
-    "family": "Fredoka One"
-  },
-  {
     "family": "Freehand"
   },
   {
@@ -1350,9 +1353,6 @@
     "family": "Genos"
   },
   {
-    "family": "Gentium Book Basic"
-  },
-  {
     "family": "Gentium Book Plus"
   },
   {
@@ -1414,6 +1414,9 @@
   },
   {
     "family": "Goldman"
+  },
+  {
+    "family": "Golos Text"
   },
   {
     "family": "Gorditas"
@@ -1798,9 +1801,6 @@
   },
   {
     "family": "Kanit"
-  },
-  {
-    "family": "Kantumruy"
   },
   {
     "family": "Kantumruy Pro"
@@ -2226,6 +2226,30 @@
     "family": "Mate SC"
   },
   {
+    "family": "Material Icons"
+  },
+  {
+    "family": "Material Icons Outlined"
+  },
+  {
+    "family": "Material Icons Round"
+  },
+  {
+    "family": "Material Icons Sharp"
+  },
+  {
+    "family": "Material Icons Two Tone"
+  },
+  {
+    "family": "Material Symbols Outlined"
+  },
+  {
+    "family": "Material Symbols Rounded"
+  },
+  {
+    "family": "Material Symbols Sharp"
+  },
+  {
     "family": "Maven Pro"
   },
   {
@@ -2257,9 +2281,6 @@
   },
   {
     "family": "Merienda"
-  },
-  {
-    "family": "Merienda One"
   },
   {
     "family": "Merriweather"

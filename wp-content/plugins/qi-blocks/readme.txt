@@ -2,9 +2,9 @@
 Contributors: qodeinteractive
 Tags: gutenberg blocks, gutenberg, blocks, templates, block, editor, patterns, wireframes, block editor, gutenberg editor, gutenberg templates, gutenberg block
 Requires at least: 5.8
-Tested up to: 6.1.1
+Tested up to: 6.2
 Requires PHP: 7.0
-Stable tag: 1.1
+Stable tag: 1.1.1
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -276,6 +276,12 @@ From wordpress.org
 12.	Device Frame Slider Block.
 
 == Changelog ==
+
+= 1-1.1 - 30-03-2023 =
+- Improved WordPress 6.2 compatibility
+- Improved Image option inside Repeater field
+- Improved Qi blocks initial width on front-end to be full width
+- Fixed minor bugs
 
 = 1-1 - 10-03-2023 =
 - Improved blocks (Contact Form 7 and Parallax Image Showcase) with video tutorial

@@ -1,6 +1,6 @@
 <?php
 
-define( 'QI_BLOCKS_VERSION', '1.1' );
+define( 'QI_BLOCKS_VERSION', '1.1.1' );
 define( 'QI_BLOCKS_ABS_PATH', dirname( __FILE__ ) );
 define( 'QI_BLOCKS_REL_PATH', dirname( plugin_basename( __FILE__ ) ) );
 define( 'QI_BLOCKS_URL_PATH', plugin_dir_url( __FILE__ ) );

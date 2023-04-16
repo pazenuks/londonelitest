@@ -81,17 +81,6 @@
 				}
 			}
 		},
-		adminHeaderPositionLogic: function () {
-			if ( qiBlocksDashboard.windowWidth > 768 ) {
-				if ( qiBlocksDashboard.scroll > qodefAdminOptionsPanel.adminHeaderTopPosition ) {
-					qodefAdminOptionsPanel.adminHeader.addClass( 'qodef-fixed' );
-					qodefAdminOptionsPanel.adminContent.css( 'padding-top', qodefAdminOptionsPanel.adminHeaderHeight );
-				} else {
-					qodefAdminOptionsPanel.adminHeader.removeClass( 'qodef-fixed' );
-					qodefAdminOptionsPanel.adminContent.css( 'padding-top', 0 );
-				}
-			}
-		}
 	};
 
 	const qodefSearchWidgets = {
@@ -152,11 +141,7 @@
 			this.adminContent.removeClass( 'qodef-apply-search' );
 			this.sectionHolder.removeClass( 'qodef-search-show' );
 			this.fieldHolder.removeClass( 'qodef-search-hide' );
-
 		},
-		resetSearchField: function () {
-			this.searchField.val( '' );
-		}
 	};
 
 	const qodefDashboardForm = {
@@ -218,11 +203,11 @@
 			this.formHolder = $( '.qodef-admin-widgets-page' );
 
 			if ( this.formHolder.length ) {
-				this.switchWidgetsValuesByControler( this.formHolder );
-				this.switchControlerValuesByWidget( this.formHolder );
+				this.switchWidgetsValuesByController( this.formHolder );
+				this.switchControllerValuesByWidget( this.formHolder );
 			}
 		},
-		switchWidgetsValuesByControler: function ( $adminPage ) {
+		switchWidgetsValuesByController: function ( $adminPage ) {
 			this.optionsForm = $adminPage.find( '.qodef-dashboard-ajax-form' );
 
 			const $sections = $adminPage.find( '.qodef-widgets-section' );
@@ -241,7 +226,7 @@
 				}
 			);
 		},
-		switchControlerValuesByWidget: function ( $adminPage ) {
+		switchControllerValuesByWidget: function ( $adminPage ) {
 			this.optionsForm = $adminPage.find( '.qodef-dashboard-ajax-form' );
 
 			const $sections = $adminPage.find( '.qodef-widgets-section' );
@@ -272,21 +257,6 @@
 				}
 			);
 		},
-		allWidgetsEnabled: function ( $section ) {
-			const $sectionWidgets = $section.find( '.qodef-widgets-item input:checkbox' );
-
-			$sectionWidgets.each(
-				function () {
-					const $widget = $( this );
-
-					if ( ! $widget.is( ':checked' ) ) {
-						return false;
-					}
-				}
-			);
-
-			return true;
-		}
 	};
 
 })( jQuery );
