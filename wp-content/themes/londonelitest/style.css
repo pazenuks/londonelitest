@@ -136,7 +136,7 @@ Text Domain:	 londonelitest
     --global--font-size-xs: 1rem;
     --global--font-size-sm: 1.125rem;
     --global--font-size-md: 1.25rem;
-    --global--font-size-lg: 1.5rem;
+    --global--font-size-lg: 1.75rem;
     --global--font-size-xl: 2.25rem;
     --global--font-size-xxl: 3rem;
     --global--font-size-xxxl: 4rem;
@@ -154,7 +154,7 @@ Text Domain:	 londonelitest
     --heading--font-size-h5: var(--global--font-size-sm);
     --heading--font-size-h4: var(--global--font-size-md);
     --heading--font-size-h3: calc(1.25 * var(--global--font-size-lg));
-    --heading--font-size-h2: var(--global--font-size-lg);
+    --heading--font-size-h2: var(--global--font-size-xl);
     --heading--font-size-h1: var(--global--font-size-page-title);
     --heading--letter-spacing-h6: 0.05em;
     --heading--letter-spacing-h5: 0.05em;
@@ -292,7 +292,7 @@ Text Domain:	 londonelitest
     --primary-nav--color-link: var(--global--color-primary);
     --primary-nav--color-link-hover: var(--global--color-primary-hover);
     --primary-nav--color-text: var(--global--color-primary);
-    --primary-nav--padding: calc(0.66 * var(--global--spacing-unit));
+    --primary-nav--padding: calc(1.25 * var(--global--spacing-unit));
     --primary-nav--border-color: var(--global--color-primary);
 
     /* Pagination */
@@ -3815,12 +3815,20 @@ table.wp-calendar-table caption {
     display: inline-block;
     width: auto;
 }
+
+.site-footer-wrapper .site-logo .custom-logo {
+    max-width: 140px;
+}
 @media only screen and (min-width: 768px) {
 
     .site-logo .custom-logo {
         max-width: 110px;
         height: auto;
         width: auto;
+    }
+
+    .site-footer-wrapper .site-logo .custom-logo {
+        max-width: 180px;
     }
 }
 
@@ -3838,6 +3846,7 @@ table.wp-calendar-table caption {
         width: 100%;
         height: 100px;
         transform: unset;
+        margin-bottom: 20px;
         left: unset;
         position: relative;
     }
@@ -6187,44 +6196,35 @@ footer {
         padding: 10%;
     }
 
-
-    .group-page-title {
-
-    }
-
-    .group-text {
-
-    }
 }
 
 @media only screen and (max-width: 767px) {
 
     .custom-image-with-text {
         margin: auto !important;
-        --qi-blocks-columns: 2;
+        --qi-blocks-columns: 1;
     }
 
     .custom-image-with-text .qodef-gutenberg-row {
         gap: 0;
+        flex-wrap: wrap;
     }
 
     .custom-image-with-text .text-column {
-        width: 67% !important;
+        width: 100% !important;
+        margin-top: -75%;
     }
 
     .custom-image-with-text .image-column {
-        order: 2;
-        width: 33% !important;
+        width: 100% !important;
     }
 
-    .custom-image-with-text .image-column .qodef-gutenberg-column-inner .wp-block-image img {
-        position: absolute;
-        max-width: unset !important;
-        width: 150%;
-        height: calc(100% - 20px);
-        right: 30px;
-        z-index: 50;
-        object-fit: contain;
+    .m-display-inline {
+        display: inline-block !important;
+    }
+
+    .custom-image-with-text .image-column .qodef-gutenberg-column-inner .wp-block-image {
+        margin-bottom: 0;
     }
 
     .custom-image-with-text .group-page-title {
@@ -6238,24 +6238,12 @@ footer {
     }
 
     .custom-image-with-text .group-text {
-        background: var(--global--color-london-secondary);
         color: white;
-        font-size: 10px;
-        padding: 20px 40% 50px 30px;
-    }
-
-    .background-brown.custom-image-with-text .group-text  {
-        background: var(--global--color-london-tetriary)
+        padding: 20px 30px 50px 30px;
     }
 
     .background-brown.custom-image-with-text .group-text h2 {
         color: var(--global--color-london-secondary)
-    }
-}
-
-@media only screen and (max-width: 480px) {
-    .custom-image-with-text .group-text {
-        font-size: 8px;
     }
 }
 
@@ -6769,6 +6757,12 @@ footer {
     .service-section .service-wrapper > div {
         width: 100%;
     }
+
+
+    .service-section .service-icon {
+        top: 25%;
+        transform: translate(0, -50%);
+    }
 }
 
 /* service post listing page end */
@@ -6838,12 +6832,10 @@ footer {
 /* team section start */
 .team-section {
     padding: 60px;
+    margin-top: 0;
     background: var(--global--color-london-quaternary);
 }
 
-.team-section .wp-block-cover__image-background {
-    position: relative !important;
-}
 
 .team-section .wp-block-cover {
     padding: 0 !important;
@@ -6879,6 +6871,10 @@ footer {
     margin-left: -45px;
 }
 
+.team-section .maria .wp-block-cover .wp-block-cover__inner-container {
+    margin-left: -25px;
+}
+
 .team-section .wp-block-cover__inner-container p {
     font-size: 4rem !important;
     text-align: left !important;
@@ -6886,6 +6882,11 @@ footer {
 
 
 @media only screen and (min-width: 768px) {
+    .team-section .wp-block-cover__image-background {
+        position: relative !important;
+        object-position: top;
+    }
+
     .team-section .wp-block-columns:not(.is-not-stacked-on-mobile) > .wp-block-column {
         flex-basis: unset;
         flex-grow: unset;
@@ -6896,6 +6897,12 @@ footer {
         top:0;
         bottom: unset;
     }
+
+    .team-section .maria .has-background-dim.wp-block-cover__background {
+        top:0;
+        bottom: unset;
+    }
+
 
     .team-section .wp-block-columns {
         flex-wrap: wrap !important;
@@ -6912,18 +6919,22 @@ footer {
         margin-right: auto;
     }
 
-    .team-section .dina {
-
-    }
-
     .team-section .agatha .wp-block-column:first-child {
         padding-top: 120px;
+    }
+
+    .team-section .maria .wp-block-column:first-child {
+        padding-top: 50px;
     }
 }
 
 @media only screen and (max-width: 767px) {
     .team-section .wp-block-columns.flip .wp-block-column:first-child {
         order: 2;
+    }
+
+    .team-section .wp-block-columns.is-layout-flex {
+        gap: 4em;
     }
 }
 
@@ -6937,6 +6948,10 @@ footer {
 .service .entry-content {
     overflow: auto;
     max-width: 1240px;
+}
+
+.service-arrow {
+    display: none;
 }
 
 @media only screen and (min-width: 768px) {
@@ -7002,6 +7017,12 @@ footer {
 
     #horizontal {
         position:relative;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    #horizontal::-webkit-scrollbar {
+        display: none;
     }
 
     .service-arrow {
