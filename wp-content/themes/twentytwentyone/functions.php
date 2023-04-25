@@ -203,7 +203,7 @@ if ( ! function_exists( 'twenty_twenty_one_setup' ) ) {
 		$black     = '#000000';
 		$dark_gray = '#28303D';
 		$gray      = '#39414D';
-		$green     = '#D1E4DD';
+//		$green     = '#D1E4DD';
 		$blue      = '#D1DFE4';
 		$purple    = '#D1D1E4';
 		$red       = '#E4D1D1';
@@ -232,7 +232,7 @@ if ( ! function_exists( 'twenty_twenty_one_setup' ) ) {
 				array(
 					'name'  => esc_html__( 'Green', 'twentytwentyone' ),
 					'slug'  => 'green',
-					'color' => $green,
+					'color' => $white,
 				),
 				array(
 					'name'  => esc_html__( 'Blue', 'twentytwentyone' ),
@@ -282,12 +282,12 @@ if ( ! function_exists( 'twenty_twenty_one_setup' ) ) {
 				),
 				array(
 					'name'     => esc_html__( 'Green to yellow', 'twentytwentyone' ),
-					'gradient' => 'linear-gradient(160deg, ' . $green . ' 0%, ' . $yellow . ' 100%)',
+					'gradient' => 'linear-gradient(160deg, ' . $white . ' 0%, ' . $yellow . ' 100%)',
 					'slug'     => 'green-to-yellow',
 				),
 				array(
 					'name'     => esc_html__( 'Yellow to green', 'twentytwentyone' ),
-					'gradient' => 'linear-gradient(160deg, ' . $yellow . ' 0%, ' . $green . ' 100%)',
+					'gradient' => 'linear-gradient(160deg, ' . $yellow . ' 0%, ' . $white . ' 100%)',
 					'slug'     => 'yellow-to-green',
 				),
 				array(
