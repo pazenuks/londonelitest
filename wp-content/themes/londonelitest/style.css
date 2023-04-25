@@ -6537,6 +6537,7 @@ footer {
     position: relative;
     margin: auto;
     background: var(--global--color-london-quaternary);
+    max-width: unset !important;
 }
 
 .services h2 {
@@ -6572,6 +6573,7 @@ footer {
 .services .service a {
     padding-left: 10px;
     font-family: var(--global--font-primary);
+    font-weight: normal;
 }
 
 .services a:hover, .services li:hover {
