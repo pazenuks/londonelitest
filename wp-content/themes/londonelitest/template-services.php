@@ -18,13 +18,13 @@ query_posts(array(
             </div>
         </div>
         <div class="wp-block-qi-blocks-column qodef-gutenberg-column qodef-block-f4a82d86 text-column bg-d-color-tetriary">
-            <div class="qodef-gutenberg-column-inner">
+            <div class="qodef-gutenberg-column-inner ">
                 <div class="is-layout-constrained wp-block-group group-page-title">
                     <div class="wp-block-group__inner-container">
-                        <h2 class="m-left-minus-50 color-secondary weight-light"><?= get_the_title() ?></h2>
+                        <h2 class="m-left-minus-50 color-secondary"><?= get_the_title() ?></h2>
                     </div>
                 </div>
-                <div class="is-layout-constrained wp-block-group group-text bg-m-color-tetriary">
+                <div class="is-layout-constrained wp-block-group group-text">
                     <div class="wp-block-group__inner-container">
                         <?= get_the_content() ?>
                     </div>
