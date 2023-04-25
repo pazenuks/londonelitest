@@ -1,0 +1,13 @@
+{
+  "name": "acf/services",
+  "title": "Testimonial",
+  "description": "A custom services block.",
+  "category": "formatting",
+  "icon": "admin-comments",
+  "keywords": ["services"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "services.php"
+  },
+  "align": "full"
+}

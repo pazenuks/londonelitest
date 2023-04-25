@@ -67,3 +67,35 @@ function load_template_part($template_name, $part_name=null) {
     ob_end_clean();
     return $var;
 }
+
+
+//add_action( 'init', 'register_acf_blocks' );
+//function register_acf_blocks() {
+//    register_block_type( __DIR__ . '/blocks/services' );
+//}
+
+function _s_acf_init() {
+    $supports = array(
+        'align'  => array( 'wide', 'full' ),
+        'anchor' => true,
+    );
+
+    acf_register_block_type(
+        array(
+            'name'            => 'wds-services',
+            'title'           => esc_html__( 'Services', '_s' ),
+            'description'     => esc_html__( 'A custom set of service items.', '_s' ),
+            'category'        => 'wds-blocks',
+            'keywords'        => array( 'services', 'wds' ),
+            'mode'            => 'preview',
+            'align'           => 'wide',
+            'render_template' => 'template-parts/blocks/services/services.php',
+            'supports'        => $supports,
+        )
+
+    );
+
+}
+
+
+add_action( 'acf/init', '_s_acf_init' );
